@@ -9,7 +9,7 @@ import {HarcodedAuthenticationService} from '../service/harcoded-authentication.
 export class MenuComponent implements OnInit {
   // isUsserLogged = false;
 
-  constructor(private hardcodedAuthenticationService
+  constructor(public hardcodedAuthenticationService
                 : HarcodedAuthenticationService) {
   }
 

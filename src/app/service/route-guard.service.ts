@@ -1,6 +1,6 @@
 import {Injectable} from '@angular/core';
 import {CanActivate, Router} from '@angular/router';
-import {ActivatedRouteSnapshot, RouterStateSnapshot} from '@angular/router/src/router_state';
+import {ActivatedRouteSnapshot, RouterStateSnapshot} from '@angular/router';
 import {HarcodedAuthenticationService} from './harcoded-authentication.service';
 
 @Injectable({
